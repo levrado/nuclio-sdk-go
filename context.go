@@ -46,4 +46,7 @@ type Context struct {
 
 	// TriggerName holds the information about the invoking trigger in this context
 	TriggerName string
+
+	// Platform is set of platform-specific functions
+	Platform *Platform
 }
